@@ -8,7 +8,7 @@
 
 <style>
   main {
-    margin: 2rem 0;
+    margin: 2rem auto;
     min-width: 400px;
     padding: 2rem;
     /* 		min-width: 400px; */
