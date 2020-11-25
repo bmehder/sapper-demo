@@ -3,6 +3,12 @@
   import Form from "../components/Form.svelte";
 </script>
 
+<style>
+  h1 {
+    text-align: center;
+  }
+</style>
+
 <main in:fade={{ delay: 400 }} out:fly={{ x: 1000 }}>
   <h1>Contact Us</h1>
 

@@ -6,6 +6,10 @@
 
 <style>
   main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
     position: relative;
     max-width: 960px;
     background-color: white;

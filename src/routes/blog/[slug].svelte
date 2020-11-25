@@ -53,9 +53,13 @@
     margin: 0 0 0.5em 0;
   }
   a {
-    display: block;
-    margin: 1em;
-    margin-left: 0;
+    display: inline-block;
+    margin: 1em 0 2em;
+    padding: 0.5em 1em;
+    background-color: rgb(255, 62, 0);
+    color: white;
+    border-radius: 4px;
+    font-size: 0.8em;
   }
 </style>
 
