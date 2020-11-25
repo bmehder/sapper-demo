@@ -15,6 +15,9 @@
 </script>
 
 <style>
+  ul {
+    margin: 0 6em;
+  }
   li {
     margin: 0.5em 0;
   }

@@ -34,7 +34,7 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    max-width: 400px;
+    min-width: 400px;
     margin: auto;
   }
   input,
