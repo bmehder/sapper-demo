@@ -21,7 +21,7 @@
     position: relative;
     max-width: 960px;
     background-color: white;
-    padding: 3em 0;
+    padding: 3em;
     margin: 0 auto;
     box-sizing: border-box;
   }

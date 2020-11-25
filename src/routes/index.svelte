@@ -28,13 +28,6 @@
       filter: blur(0px);
     }
   }
-
-  /* @media only screen and (max-width: 865px) {
-    main {
-      display: block;
-      margin: auto;
-    }
-  } */
 </style>
 
 <svelte:head>
