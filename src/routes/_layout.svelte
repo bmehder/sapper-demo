@@ -9,7 +9,8 @@
   :global(body) {
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
+    /* align-items: center; */
+    width: 100%;
     min-height: 100vh;
   }
   main {
@@ -20,7 +21,7 @@
     position: relative;
     max-width: 960px;
     background-color: white;
-    padding: 3em 2em;
+    padding: 3em 0;
     margin: 0 auto;
     box-sizing: border-box;
   }

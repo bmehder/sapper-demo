@@ -83,11 +83,6 @@
     display: flex;
     justify-content: center;
   }
-  @media (max-width: 350px) {
-    main {
-      max-width: 100%;
-    }
-  }
 </style>
 
 <main class:raise>
