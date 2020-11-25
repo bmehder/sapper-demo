@@ -75,6 +75,8 @@
     color: #555;
     line-height: 1.4em;
     margin: 0;
+    display: flex;
+    justify-content: center;
   }
 </style>
 
@@ -83,8 +85,9 @@
     <span>{title}</span>
   </h1>
   <p>
-    <span contenteditable>
+    <span>
       {@html content}
+      <slot />
     </span>
   </p>
 </main>

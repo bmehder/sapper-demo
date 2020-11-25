@@ -13,7 +13,7 @@
     position: relative;
     max-width: 960px;
     background-color: white;
-    padding: 2em;
+    padding: 3em 2em;
     margin: 0 auto;
     box-sizing: border-box;
   }

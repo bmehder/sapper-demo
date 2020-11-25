@@ -13,6 +13,7 @@
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
+    margin-top: -1em;
   }
 
   :global(body) {
