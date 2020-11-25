@@ -13,6 +13,11 @@
     padding: 2rem;
     /* 		min-width: 400px; */
     background: white;
+    background-image: linear-gradient(
+      to bottom,
+      transparent,
+      rgba(0, 0, 0, 0.05)
+    );
     border-radius: 4px;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.24);
   }

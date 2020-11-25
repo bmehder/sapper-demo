@@ -43,11 +43,23 @@
     display: block;
     width: 100%;
     margin: 1em;
-    padding: 0.5em 1em;
+    padding: 1em;
+    border: none;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.24);
   }
   button {
+    background-color: rgb(255, 62, 0);
+    color: white;
     padding: 1em 2em;
+    font-size: 1em;
     font-weight: bold;
+  }
+  button:hover {
+    background-image: linear-gradient(
+      to bottom,
+      rgba(0, 0, 0, 0.05),
+      rgba(0, 0, 0, 0.05)
+    );
   }
   p {
     color: red;
