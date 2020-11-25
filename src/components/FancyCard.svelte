@@ -9,7 +9,7 @@
 <style>
   main {
     margin: 2rem 0;
-    /* min-width: 400px; */
+    min-width: 400px;
     padding: 2rem;
     /* 		min-width: 400px; */
     background: white;
@@ -82,6 +82,11 @@
     margin: 0;
     display: flex;
     justify-content: center;
+  }
+  @media (max-width: 350px) {
+    main {
+      max-width: 100%;
+    }
   }
 </style>
 

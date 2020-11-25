@@ -60,6 +60,7 @@
     color: white;
     border-radius: 4px;
     font-size: 0.8em;
+    text-decoration: none;
   }
 </style>
 

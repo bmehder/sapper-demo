@@ -45,6 +45,7 @@
     padding: 1em;
     border: none;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.24);
+    outline: none;
   }
   button {
     background-color: rgb(255, 62, 0);
