@@ -9,7 +9,7 @@
 <style>
   main {
     margin: 2rem 0;
-    min-width: 400px;
+    /* min-width: 400px; */
     padding: 2rem;
     /* 		min-width: 400px; */
     background: white;
@@ -32,7 +32,7 @@
     justify-content: center;
     margin: 0;
     color: #555;
-    font-size: 2.5rem;
+    font-size: 2rem;
   }
   h1::before,
   h1::after {

@@ -6,6 +6,7 @@
   nav {
     display: flex;
     justify-content: center;
+    width: 100%;
     background-color: rgb(255, 62, 0);
     color: white;
     border-bottom: 1px solid rgba(255, 62, 0, 0.1);

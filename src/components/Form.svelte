@@ -34,7 +34,6 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    min-width: 400px;
     margin: auto;
   }
   input,
@@ -53,6 +52,7 @@
     padding: 1em 2em;
     font-size: 1em;
     font-weight: bold;
+    outline: none;
   }
   button:hover {
     background-image: linear-gradient(
@@ -67,6 +67,8 @@
   h3 {
     color: green;
     text-align: center;
+  }
+  @media (max-width: 400px) {
   }
 </style>
 

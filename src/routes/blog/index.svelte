@@ -16,7 +16,7 @@
 
 <style>
   ul {
-    margin: 0 6em;
+    margin: 0 0 0 0;
   }
   li {
     margin: 0.5em 0;
@@ -29,7 +29,7 @@
 
 <main in:fade={{ delay: 400 }} out:fly={{ x: 1000 }}>
   <section>
-    <FancyCard title="Recent posts" content="">
+    <FancyCard title="Recent Posts" content="">
       <ul>
         {#each posts as post}
           <!-- we're using the non-standard `rel=prefetch` attribute to

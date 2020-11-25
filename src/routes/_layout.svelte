@@ -1,10 +1,17 @@
 <script>
   import Nav from "../components/Nav.svelte";
+  import Footer from "../components/Footer.svelte";
 
   export let segment;
 </script>
 
 <style>
+  :global(body) {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    min-height: 100vh;
+  }
   main {
     display: flex;
     flex-direction: column;
@@ -24,3 +31,5 @@
 <main>
   <slot />
 </main>
+
+<Footer />
