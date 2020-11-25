@@ -15,6 +15,19 @@
     flex-wrap: wrap;
   }
 
+  :global(body) {
+    animation: fx 1.6s;
+  }
+
+  @keyframes fx {
+    from {
+      filter: blur(100px);
+    }
+    to {
+      filter: blur(0px);
+    }
+  }
+
   @media only screen and (max-width: 865px) {
     main {
       display: block;
